@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+header{
+    display: inline;
+    margin-bottom: 0;
+}
+nav{
+    text-align: right;
+    padding: 16px;
+    height: 45px;
+}
+#logo{
+    float: left;
+    width: 40px;
+}
+.menu-items{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 14px;
+    margin-right: 16px;
+    position: relative;
+}
+.dropdown-icon{
+    width: 10px;
+    margin-left:5px ;
+}
+#buy-now{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(170,210,54);
+    padding: 9px 34px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 16px;
+}
+#dropdown-items{
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    right: 375px;
+    border-top: 2px solid rgb(170, 210, 54);
+    box-shadow: 0 2px 5px #ccc;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 150px;
+    text-align: left;
+    display: none;
+    z-index: 99;
+}
+#dropdown-wrapper:hover #dropdown-items{
+    display: block;
+}
+#dropdown-items:hover{
+    display: block;
+}
+.list-items{
+   display: inline-block;
+   padding-left: 8px;
+   border-bottom: 1px solid black;
+   margin-bottom: 16px;
+   z-index: 99;
+}
+#dropdown-wrapper{
+    display: inline;
+    z-index: 99;
+}
+#heading{
+    height: 1000px;
+    background-image: url( https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    position: relative;
+    top: -50px;
+}
