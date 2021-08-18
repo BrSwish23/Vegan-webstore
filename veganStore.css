@@ -135,7 +135,7 @@ nav{
     line-height: 1.6;
 }
 .blocks:hover i{
-    scale: 1.1;
+    transform: scale(1.1);
 }
 #step1{
     background-color: #5acda6;
@@ -148,4 +148,65 @@ nav{
 }
 #step4{
     background-color: #f69dad;
+}
+/* Store Qualities section */
+
+#store-qualities{
+    background-color: #f7eee2;
+    text-align: center;
+    height: 675px;
+    padding-top: 35px;
+    position: relative;
+    top: -250px;
+}
+
+#store-qualities h5{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+
+#store-qualities h1{
+    font-size: 44px;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+
+#store-qualities p{
+    font-size: 16px;
+    font-weight: 500;
+    Color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 60px;
+}
+
+#qualities-container{
+    display: flex;
+    text-align: center;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+}
+
+.qualities{
+    width: 25%;
+    height: 100%;  
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.qualities i{
+    font-size: 60px;
+    background-color: #e3b375;
+    color: white;
+    padding: 40px;
+    border-radius: 70px;
+}
+
+.qualities h1{
+    font-size: 24px;
+}
+.qualities:hover i{
+    transform: scale(1.1);
 }
