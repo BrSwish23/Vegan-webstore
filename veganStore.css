@@ -210,3 +210,68 @@ nav{
 .qualities:hover i{
     transform: scale(1.1);
 }
+
+/* Reviews Section */
+#reviews{
+    text-align: center;
+    height: 400px;
+    position: relative;
+    top: -200px;
+}
+#reviews>h5{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+}
+#reviews>h1{
+    font-size: 44px;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+#reviews>p{
+    font-size: 16px;
+    font-weight: 500;
+    Color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 100px;
+}
+#cards-container{
+    display: flex;
+    box-sizing: border-box;
+    padding-left:200px;
+    margin-top: 50px;
+}
+.cards{
+    background-color: #f5f6fb;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    width: 25%;
+    box-sizing: border-box;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 20px;
+}
+.cards img{
+    width: 80px;
+    border-radius: 50%;
+}
+.message{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    color: #8b8b99;
+}
+.author{
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+}
+.designation{
+    font-size: 12px;
+    color: #8b8b99;
+    margin-top: 0;
+
+}
