@@ -355,3 +355,58 @@ nav{
     background-color: transparent;
     color: #f69dad;
 }
+
+/* Stats Section */
+
+
+#stats-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E0FCED;
+    height: 250px;
+}
+
+
+.stats{
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+
+
+.stats p{
+    color: green;
+}
+
+
+.stats h1{
+    font-size: 44px;
+}
+
+
+/* Video Section */
+
+#video-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#video-section{
+    font-size: 28px;
+}
+
+
+#line-separator{
+    width: 100px;
+    height: 1px;
+    background-color: orange;
+    margin-bottom: 32px;
+}
+
+#video{
+    height: 425px;
+    width: 100%;
+}
