@@ -176,45 +176,46 @@ nav > div > div:nth-child(2) {
 /* Steps Section */
 
 
-#section2{
+#steps-section{
     width: 100%;
-    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: stretch;
-    box-sizing: border-box;
-    position: relative;
 }
 
 
-.blocks{
+.step-item{
     width: 25%;
     text-align: center;
     color: white;
     padding: 110px 50px;
+    box-sizing: border-box;
 }
 
 
-.blocks i{
+.step-item i{
     font-size: 96px;
     font-weight: 900;
     transition: all 0.3s;
 }
 
 
-.blocks h3{
+.step-item h3{
+    font-size: 24px;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
 }
 
 
-.blocks p{
+.step-item p{
     font-size: 14px;
     letter-spacing: 0.5px;
     line-height: 1.6;
+    margin: 0;
 }
 
 
-.blocks:hover i{
+.step-item:hover i{
     transform: scale(1.1);
 }
 
@@ -241,51 +242,61 @@ nav > div > div:nth-child(2) {
 
 /* Store Qualities section */
 
-#store-qualities{
+#store-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     background-color: #f7eee2;
     text-align: center;
-    height: 675px;
-    padding-top: 35px;
-    position: relative;
+    box-sizing: border-box;
+    padding: 80px 0;
+    justify-content: center;
 }
 
-#store-qualities h5{
+#fresh-food-heading{
     color: #91ac41;
     font-size: 24px;
     font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
 }
 
-#store-qualities h1{
+#store-section>h3{
     font-size: 44px;
     margin-bottom: 2px;
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
-#store-qualities p{
+#store-description{
     font-size: 16px;
     font-weight: 500;
     Color: #8b8b99;
     letter-spacing: 0.5px;
+    margin: 0;
     margin-bottom: 60px;
 }
 
-#qualities-container{
+#store-items-wrapper{
+    width: 100%;
     display: flex;
+    max-width: 1140px;
     text-align: center;
-    width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 350px;
+    justify-content: stretch;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.qualities{
-    width: 25%;
-    height: 100%;  
-    padding-left: 35px;
-    padding-right: 35px;
+.store-items{
+    width: 25%; 
+    text-align: center;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.qualities i{
+.store-items i{
     font-size: 60px;
     background-color: #e3b375;
     color: white;
@@ -293,100 +304,141 @@ nav > div > div:nth-child(2) {
     border-radius: 70px;
 }
 
-.qualities h1{
+.store-items h3{
     font-size: 24px;
 }
-.qualities:hover i{
+.store-items:hover i{
     transform: scale(1.1);
 }
 
+
+
 /* Reviews Section */
-#reviews{
-    text-align: center;
-    height: 500px;
+
+
+#shop-section{
+    width: 100%;
+    padding: 75px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-#reviews>h5{
+
+
+#shop-section>p:first-of-type{
     color: #91ac41;
     font-size: 24px;
     font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
 }
-#reviews>h1{
+
+
+#shop-section>h3{
     font-size: 44px;
-    margin-bottom: 2px;
     margin-top: 0;
 }
-#reviews>p{
+
+
+#shop-description{
     font-size: 16px;
     font-weight: 500;
     Color: #8b8b99;
     letter-spacing: 0.5px;
-    margin-bottom: 100px;
+    max-width: 700px;
+    text-align: center;
 }
-#cards-container{
+
+
+#shop-section>div{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
     display: flex;
+    text-align: center;
     box-sizing: border-box;
-    padding-left:200px;
-    margin-top: 50px;
 }
-.cards{
+
+.testimonial-cards{
+    width: 25%;
+    height: auto;
+    padding: 40px 30px;
+    margin: 16px;
     background-color: #f5f6fb;
     border-top-left-radius: 45px;
     border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    width: 25%;
-    box-sizing: border-box;
-    margin-left: 24px;
-    margin-right: 24px;
-    padding: 20px;
+    border-bottom-right-radius: 45px;    
 }
-.cards img{
+
+
+.testimonial-cards:hover{
+    box-shadow: 1px 5px 15px #f5f6fb;
+}
+
+.testimonial-cards img{
     width: 80px;
     border-radius: 50%;
+    margin-bottom: 25px;
 }
+
+
 .message{
+    font-size: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-style: italic;
     letter-spacing: 0.5px;
     font-style: italic;
     color: #8b8b99;
+    margin: 0;
 }
+
+
 .author{
       font-family: 'Poppins', sans-serif;
       font-size: 16px;
       font-weight: 600;
+      margin: 0;
+      margin-top: 24px;
 }
+
+
 .designation{
     font-size: 12px;
     color: #8b8b99;
     margin-top: 0;
 }
 
+
+
 /* Subscribe section */
 
 
-#subscribe-wrapper{
-    margin-top: 50px;
+#follow-us-section{
     display: flex;
     width: 100%;
-    position: relative;
-    top: 200px;
 }
 
 
-#image-wrapper{
+#left-section{
     width: 67%;
+    margin: 0;
 }
 
 
-#image-wrapper img{
+#left-section img{
     width: 100%;
+    margin: 0;
 }
 
 
-#subscribe{
+#right-section{
     background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
     width: 33%;
+    background-size: cover;
+    background-position: left;
 }
 
 
@@ -449,29 +501,38 @@ nav > div > div:nth-child(2) {
 
 
 #stats-section{
+    width: 100%;
+    background-color: #f6fcfa;
+}
+
+
+#stats-wrapper{
+    max-width: 1140px;
+    padding: 100px 0;
     display: flex;
-    justify-content: space-evenly;
-    background-color: #E0FCED;
-    height: 250px;
-    position: relative;
-    top: 150px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
 .stats{
+    width: 25%;
     text-align: center;
-    box-sizing: border-box;
-    padding-top: 35px;
 }
 
 
 .stats p{
     color: green;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    letter-spacing: 0.5px;
 }
 
 
 .stats h1{
     font-size: 44px;
+    margin: 0;
 }
 
 
@@ -482,13 +543,12 @@ nav > div > div:nth-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 150px;
 }
 
 
-#video-section{
-    font-size: 28px;
+#video-section>h3{
+    font-size: 44px;
+    color: #8b8b99
 }
 
 
@@ -513,8 +573,6 @@ nav > div > div:nth-child(2) {
     width: 100%;
     box-sizing: border-box;
     justify-content: space-around;
-    position: relative;
-    top: 150px;
 }
 
 #address-wrapper{
@@ -524,9 +582,6 @@ nav > div > div:nth-child(2) {
     display: flex;
     padding: 100px 0;
     justify-content: space-between;
-    position: relative;
-    top: 150px;
-
 }
 
 #address-wrapper>div:first-of-type{
@@ -621,8 +676,6 @@ footer{
     font-size: 14px;
     letter-spacing: 0.5px;
     text-align: center;
-    position: relative;
-    top: 150px;
 }
 
 
@@ -631,7 +684,6 @@ footer{
 @media (max-width: 900px){
     .dropdown-wrapper{
         display: none;
-
     }
 
     nav>div>a{
@@ -654,12 +706,89 @@ footer{
 
     /* Steps Section */
 
-    #section2{
+    #steps-section{
+        width: 100%;
         flex-direction: column;
     }
 
-    .blocks{
+    .step-item{
         width: 100%;
     }
 
+    /* Store Section */
+
+    #store-item-wrapper{
+        flex-direction: column;
+    }
+
+    .store-items{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Shop Section */
+
+    #shop-section{
+        padding: 16px;
+    }
+
+    #shop-section>h3{
+        font-size: 28px;
+    }
+
+    #shop-section>div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-cards{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Follow Us Section */
+
+    #follow-us-section {
+        flex-direction: column;
+    }
+
+    #left-section {
+        width: 100%;
+    }
+
+    #right-section {
+        width: 100%;
+    }
+
+    #text-wrapper {
+        margin: 16px;
+    }
+
+    #text-wrapper h3 {
+        font-size: 28px;
+    }
+
+    /* Stats Section */
+
+    #address-and-contact-section {
+        padding: 16px;
+    }
+
+    #stats-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #address-wrapper {
+        padding: 0;
+        flex-direction: column;
+    }
+
+    #address-wrapper > div:first-of-type {
+        width: 100%;
+    }
+
+    #address-wrapper > div:last-of-type {
+        width: 100%;
+    }
 }
